@@ -12,6 +12,25 @@ ol {
 }
 /**====================body===============**/
 /*=====================header==============*/
+
+.container {
+  width: 1158px;
+  height: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+}
+.header-containe {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .nav-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -20,9 +39,14 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .nav-logo-part {
   color: #2e2f42;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 .nav-link {
   color: #2e2f42;
@@ -37,6 +61,11 @@ ol {
 }
 .header-address {
   font-style: normal;
+  margin-right: auto;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 .header-address-link {
   color: #434455;
