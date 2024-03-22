@@ -38,16 +38,17 @@ address {
 /**====================body===============**/
 /*=====================header==============*/
 
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-containe {
-  align-items: center;
+  display: flex;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
@@ -87,7 +88,6 @@ address {
   font-style: normal;
   margin-left: auto;
   padding: 24px 0;
-  display: flex;
 }
 .address-list {
   display: flex;
@@ -141,8 +141,8 @@ address {
   margin-left: auto;
   margin-right: auto;
   border: none;
-  height: 56px
   min-width: 169px;
+  height: 56px;
 }
 .hero-button:hover,
 .hero-button:focus {
