@@ -217,6 +217,9 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .team-item-text {
   font-weight: 400;
@@ -224,6 +227,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+  padding-bottom: 32px;
 }
 /*========================Portfolio=========*/
 .portfolio {
