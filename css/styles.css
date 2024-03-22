@@ -43,10 +43,8 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-containe {
-  display: flex;
 }
 .container {
-  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -95,6 +93,7 @@ address {
   gap: 40px;
 }
 .header-address-link {
+  display: flex;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
