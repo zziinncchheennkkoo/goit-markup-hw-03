@@ -38,16 +38,15 @@ address {
 /**====================body===============**/
 /*=====================header==============*/
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
 .container {
-  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
 .header-containe {
   display: flex;
   align-items: center;
@@ -90,7 +89,7 @@ address {
   font-style: normal;
   margin-left: auto;
   padding: 24px 0;
-  display: block;
+  display: flex;
 }
 .address-list {
   display: flex;
@@ -232,11 +231,6 @@ address {
 .footer {
   font-family: "Raleway", sans-serif;
   background: #2e2f42;
-}
-.footer-container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
   padding: 100px 0;
 }
 .footer-logo {
