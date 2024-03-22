@@ -190,6 +190,7 @@ address {
 /*=======================Team============*/
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -199,8 +200,11 @@ address {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
