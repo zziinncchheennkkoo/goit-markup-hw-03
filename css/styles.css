@@ -43,6 +43,7 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-containe {
+  display: flex;
 }
 .container {
   width: 1158px;
